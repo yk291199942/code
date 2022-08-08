@@ -19,11 +19,10 @@ To predict the training results, we need to use two files, yolo.py and predict.p
 classes_path points to the txt corresponding to the detected classes.**   
 After finishing the modification, you can run predict.py for detection. After running, enter the image path to detect.
 
-Translated with www.DeepL.com/Translator (free version)
 
 
 ## Prediction steps
- # b. Use your own trained weights
+ # Use your own trained weights
 1. Follow the training steps to train.  
 2. Inside the yolo.py file, modify model_path and classes_path in the following section to make them correspond to the trained files; **model_path corresponds to the weights file under the logs folder, and classes_path is the class that corresponds to the division of model_path**.  
 ```python
